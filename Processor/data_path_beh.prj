@@ -1,0 +1,4 @@
+verilog work "Data_Mem.v"
+verilog work "ALU.v"
+verilog work "data_path.v"
+verilog work "F:/varilog_run/14.5/ISE_DS/ISE//verilog/src/glbl.v"

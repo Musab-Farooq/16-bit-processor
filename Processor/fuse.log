@@ -1,0 +1,30 @@
+Running: F:\varilog_run\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/tb_processor_isim_beh.exe -prj C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/tb_processor_beh.prj work.tb_processor work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/instructionMem.v" into library work
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/Data_Mem.v" into library work
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/data_path.v" into library work
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/Control_Unit.v" into library work
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/Processor_main.v" into library work
+Analyzing Verilog file "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/tb_processor.v" into library work
+Analyzing Verilog file "F:/varilog_run/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/data_path.v" Line 115: Size mismatch in connection of port <address>. Formal port size is 8-bit while actual signal size is 16-bit.
+Completed static elaboration
+Compiling module instructionMem
+Compiling module Control_Unit
+Compiling module ALU
+Compiling module Data_Mem
+Compiling module data_path
+Compiling module Processor_main
+Compiling module tb_processor
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/Administrator/Documents/Sem 1/ICT/Project_main/Processor/tb_processor_isim_beh.exe
+Fuse Memory Usage: 30796 KB
+Fuse CPU Usage: 436 ms

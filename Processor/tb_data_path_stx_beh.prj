@@ -1,0 +1,5 @@
+verilog isim_temp "Data_Mem.v"
+verilog isim_temp "ALU.v"
+verilog isim_temp "data_path.v"
+verilog isim_temp "tb_data_path.v"
+verilog isim_temp "F:/varilog_run/14.5/ISE_DS/ISE//verilog/src/glbl.v"
