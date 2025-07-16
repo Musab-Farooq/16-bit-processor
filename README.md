@@ -153,10 +153,16 @@ Observe outputs (from testbench or waveform viewer).
 
 📂 File Structure
 ├── Processor_main.v       # Top-level processor
+
 ├── data_path.v            # Core datapath for instruction execution
+
 ├── instructionMem.v       # Preloaded instruction ROM
+
 ├── Control_Unit.v         # Decodes instructions into control signals
+
 ├── ALU.v                  # Arithmetic Logic Unit (external)
+
 ├── Data_Mem.v             # Data Memory for lw/sw instructions
+
 └── README.md              # Documentation
 
