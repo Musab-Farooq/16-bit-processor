@@ -120,11 +120,12 @@ ROM [32] = 16'b001001_000_000_0110;
 // exit2:
 
 ```
-🛠️ How to Run the Simulation
+
+##🛠️ How to Run the Simulation
 🔧 Requirements
 Any Verilog simulator (e.g., Icarus Verilog, ModelSim, Vivado)
 
-🏃‍♂️ Steps
+###🏃‍♂️ Steps
 Place all .v files in one folder:
 Processor_main.v
 data_path.v
@@ -133,13 +134,14 @@ ALU.v
 Data_Mem.v
 Control_Unit.v
 
-Run the simulation (example with Icarus Verilog):
+###Run the simulation (example with Icarus Verilog):
 iverilog -o cpu_sim Processor_main.v data_path.v instructionMem.v ALU.v Data_Mem.v Control_Unit.v
 vvp cpu_sim
 
 Observe outputs (from testbench or waveform viewer).
 
-📋 Future Enhancements
+
+##📋 Future Enhancements
 ✅ Add mflo, mfhi register handling for multi-cycle multiplication
 
 ✅ Support custom flags (zero, negative, overflow)
@@ -150,18 +152,13 @@ Observe outputs (from testbench or waveform viewer).
 
 🚧 Use a proper PC incrementer module to make it fully clock-driven
 
-📂 File Structure
-├── Processor_main.v       # Top-level processor
 
-├── data_path.v            # Core datapath for instruction execution
-
-├── instructionMem.v       # Preloaded instruction ROM
-
-├── Control_Unit.v         # Decodes instructions into control signals
-
-├── ALU.v                  # Arithmetic Logic Unit (external)
-
-├── Data_Mem.v             # Data Memory for lw/sw instructions
-
-└── README.md              # Documentation
+##📂 File Structure
+├── Processor_main.v       // Top-level processor
+├── data_path.v            // Core datapath for instruction execution
+├── instructionMem.v       // Preloaded instruction ROM
+├── Control_Unit.v         // Decodes instructions into control signals
+├── ALU.v                  // Arithmetic Logic Unit (external)
+├── Data_Mem.v             // Data Memory for lw/sw instructions
+└── README.md              // Documentation
 
