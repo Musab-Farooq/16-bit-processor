@@ -141,6 +141,7 @@ vvp cpu_sim
 Observe outputs (from testbench or waveform viewer).
 
 
+
 ## 📋 Future Enhancements
 ✅ Add mflo, mfhi register handling for multi-cycle multiplication
 
@@ -153,19 +154,20 @@ Observe outputs (from testbench or waveform viewer).
 🚧 Use a proper PC incrementer module to make it fully clock-driven
 
 
+
 ## 📂 File Structure
 
-├── Processor_main.v       // Top-level processor
+├── Processor_main.v       
 
-├── data_path.v            // Core datapath for instruction execution
+├── data_path.v           
 
-├── instructionMem.v       // Preloaded instruction ROM
+├── instructionMem.v      
 
-├── Control_Unit.v         // Decodes instructions into control signals
+├── Control_Unit.v        
 
-├── ALU.v                  // Arithmetic Logic Unit (external)
+├── ALU.v                
 
-├── Data_Mem.v             // Data Memory for lw/sw instructions
+├── Data_Mem.v           
 
-└── README.md              // Documentation
+└── README.md            
 
